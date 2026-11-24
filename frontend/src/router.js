@@ -103,6 +103,11 @@ const routes = [
     component: () => import('@/pages/CallLogs.vue'),
   },
   {
+    path: '/visit-records',
+    name: 'VisitRecords',
+    component: () => import('@/pages/VisitRecords.vue'),
+  },
+  {
     path: '/data-import',
     name: 'DataImportList',
     component: () => import('@/pages/DataImport.vue'),

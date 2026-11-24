@@ -21,7 +21,7 @@ export const navigationItems = [
   { label: 'Organizations', icon: OrganizationsIcon, route: 'Organizations' },
   { label: 'Notes', icon: NoteIcon, route: 'Notes' },
   { label: 'Tasks', icon: TaskIcon, route: 'Tasks' },
-  { label: 'Call Logs', icon: PhoneIcon, route: 'Call Logs' },
+  { label: '拜访记录', icon: PhoneIcon, route: 'VisitRecords' },
 ]
 
 export function getNavigationItems({ mobile = false } = {}) {
