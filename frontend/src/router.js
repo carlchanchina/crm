@@ -99,6 +99,11 @@ const routes = [
     component: () => import('@/pages/CallLogs.vue'),
   },
   {
+    path: '/visit-records',
+    name: 'VisitRecords',
+    component: () => import('@/pages/VisitRecords.vue'),
+  },
+  {
     alias: '/data-import',
     path: '/data-import/view/:viewType?',
     name: 'Data Imports',
